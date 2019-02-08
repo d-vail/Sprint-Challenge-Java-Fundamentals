@@ -30,6 +30,7 @@ public class Nickel extends Currency {
 
   /**
    * Print the value of the nickel object.
+   *
    * @return  A string describing the value stored in this nickel object.
    */
   @Override

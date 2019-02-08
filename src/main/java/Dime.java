@@ -30,6 +30,7 @@ public class Dime extends Currency {
 
   /**
    * Print the value of the dime object.
+   *
    * @return  A string describing the value stored in this dime object.
    */
   @Override

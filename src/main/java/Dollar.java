@@ -30,6 +30,7 @@ public class Dollar extends Currency {
 
   /**
    * Print the value of the dollar object.
+   *
    * @return  A string describing the value stored in this dollar object.
    */
   @Override

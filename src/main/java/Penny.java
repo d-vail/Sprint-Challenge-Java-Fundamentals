@@ -30,6 +30,7 @@ public class Penny extends Currency {
 
   /**
    * Print the value of the penny object.
+   *
    * @return  A string describing the value stored in this penny object.
    */
   @Override

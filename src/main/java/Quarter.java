@@ -30,6 +30,7 @@ public class Quarter extends Currency {
 
   /**
    * Print the value of the quarter object.
+   *
    * @return  A string describing the value stored in this quarter object.
    */
   @Override
