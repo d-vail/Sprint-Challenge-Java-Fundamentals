@@ -56,6 +56,7 @@ public abstract class Currency {
 
   /**
    * Getter for the denomination.
+   *
    * @return  The denomination set by the constructor.
    * @link    Currency#denomination
    */
@@ -65,6 +66,7 @@ public abstract class Currency {
 
   /**
    * Getter for the name.
+   *
    * @return  The name set by the constructor.
    * @link    Currency#name
    */
@@ -74,6 +76,7 @@ public abstract class Currency {
 
   /**
    * Getter for the count.
+   *
    * @return  The count set by the constructor.
    * @link    Currency#count
    */
@@ -83,6 +86,7 @@ public abstract class Currency {
 
   /**
    * Print the value of the currency object.
+   *
    * @return  A string describing the value of the currency object.
    */
   public abstract String printValue();
