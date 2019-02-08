@@ -1,22 +1,22 @@
 public abstract class Currency {
-  private double value;
+  private double denomination;
   private String name;
   private int count;
 
-  public Currency(String name, double value, int count) {
+  public Currency(String name, double denomination, int count) {
     this.name = name;
-    this.value = value;
+    this.denomination = denomination;
     this.count = count;
   }
 
-  public Currency(String name, double value) {
+  public Currency(String name, double denomination) {
     this.name = name;
-    this.value = value;
+    this.denomination = denomination;
     count = 1;
   }
 
-  public double getValue() {
-    return value;
+  public double getDenomination() {
+    return denomination;
   }
 
   public String getName() {

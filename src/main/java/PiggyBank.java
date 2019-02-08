@@ -11,7 +11,7 @@ public class PiggyBank {
 
   public void add(Currency currency) {
     bank.add(currency);
-    value += (currency.getValue() * currency.getCount());
+    value += (currency.getDenomination() * currency.getCount());
   }
 
   public void printBankroll() {
