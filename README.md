@@ -53,18 +53,18 @@ Create collection
 _Note_: Do not worry about the format of the 7.2 Either 7.2 or 7.20 would be correct. Also notice that we are not concerned
 with adding the S for plurals with our names of our coins.
 
-### Build from Source
+## Build from Source
 
 Ensure that you have Git and JDK 11.
 
-#### Get the Source Code
+### Get the Source Code
 
 ```` bash
 git clone https://github.com/d-vail/Sprint-Challenge-Java-Fundamentals.git
 cd Sprint-Challenge-Java-Fundamentals
 ````
 
-#### Build and Run from the Command Line
+### Build and Run from the Command Line
 
 To compile and build the project use:
 
@@ -78,7 +78,7 @@ To run the application use:
 ./gradlew run
 ````
 
-#### Import into IntelliJ IDEA
+### Import into IntelliJ IDEA
 
 Ensure JDK 11 is configured properly in the IDE.
 
