@@ -22,7 +22,7 @@ public class Penny extends Currency {
    *
    * Constructs a Penny object with a default count of 1.
    *
-   * @see           Currency#Currency(String, double)
+   * @see Currency#Currency(String, double)
    */
   public Penny() {
     super("Penny", 0.01);

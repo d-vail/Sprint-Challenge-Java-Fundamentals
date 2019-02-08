@@ -22,7 +22,7 @@ public class Dollar extends Currency {
    *
    * Constructs a dollar object with a default count of 1.
    *
-   * @see           Currency#Currency(String, double)
+   * @see Currency#Currency(String, double)
    */
   public Dollar() {
     super("Dollar", 1);

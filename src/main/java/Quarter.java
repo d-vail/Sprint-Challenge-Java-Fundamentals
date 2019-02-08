@@ -22,7 +22,7 @@ public class Quarter extends Currency {
    *
    * Constructs a Quarter object with a default count of 1.
    *
-   * @see           Currency#Currency(String, double)
+   * @see Currency#Currency(String, double)
    */
   public Quarter() {
     super("Quarter", 0.25);
