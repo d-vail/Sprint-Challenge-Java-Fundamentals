@@ -3,11 +3,15 @@ public abstract class Currency {
   private String name;
   private int count;
 
-  public Currency(int count) {
+  public Currency(String name, double value, int count) {
+    this.name = name;
+    this.value = value;
     this.count = count;
   }
 
-  public Currency() {
+  public Currency(String name, double value) {
+    this.name = name;
+    this.value = value;
     count = 1;
   }
 
